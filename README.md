@@ -16,3 +16,30 @@ https://github.com/cypress-io/cypress-example-recipes/
 
 
 https://app.pluralsight.com/course-player?course=ng-conf-19-testing-cypress-io&author=ng-conf&name=6bc8bea6-1905-4595-8fc8-4c4426e627c6&clip=0&mode=live
+
+
+# Pros and Cons over Selenium
+## Pros
+	• Easy to get going without experience
+	• Newer and cooler
+	• Great Docs
+
+## Cons
+	• Chrome only
+	• JavaScript (that could be a pro now)
+	• Some might have Selenium experience
+	• Problems with Oauth
+		○ https://blog.johnnyreilly.com/2?018/07/cypress-and-auth0.html
+
+## Maintainability 
+https://www.cypress.io/blog/2019/01/03/stop-using-page-objects-and-start-using-app-actions/#
+	• More tied to the Cypress framework with custom actions, but it's 50% faster!
+
+
+https://rhythmandbinary.com/2019/06/09/how-cypress-makes-testing-fun/
+
+
+## Resources
+https://dev.to/noriste/front-end-productivity-boost-cypress-as-your-main-development-browser-5cdk
+https://dvinnik.com/talks/testing/modern-web-testing-going-beyond-selenium/
+https://blog.logrocket.com/cypress-io-the-selenium-killer/
