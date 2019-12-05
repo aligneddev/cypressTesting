@@ -1,7 +1,7 @@
 ﻿
 context('Registration', () => {
     beforeEach(() => {
-        cy.visit('https://localhost:44354/');
+        cy.visit('');
     });
 
     describe('Registration test open', function () {
@@ -9,7 +9,7 @@ context('Registration', () => {
             cy.get('[data-cy=navLinkRegistration]').click();
         });
         it('Opens the page', function () {
-            cy.url().should('eq', 'https://localhost:44354/Identity/Account/Register');
+            cy.url().should('contain', 'Identity/Account/Register');
             cy.get('h1').first().should('have.text', 'Register');
         });
         describe('when filling out the fields', () => {
