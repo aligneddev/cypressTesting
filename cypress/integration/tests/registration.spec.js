@@ -1,7 +1,7 @@
 ﻿
 context('Registration', () => {
     beforeEach(() => {
-        cy.visit('https://localhost:44354/');
+        cy.visit('');
     });
 
     describe('Registration test open', function () {
@@ -9,16 +9,16 @@ context('Registration', () => {
             cy.get('[data-cy=navLinkRegistration]').click();
         });
         it('Opens the page', function () {
-            cy.url().should('eq', 'https://localhost:44354/Identity/Account/Register');
+            cy.url().should('contain', 'Identity/Account/Register');
             cy.get('h1').first().should('have.text', 'Register');
         });
         describe('when filling out the fields', () => {
             describe('when no confirm password', () => {
                 it('should show validation', () => {
-                    cy.get('#Input_Email').type('klogan@omnitech-inc.com');
-                    cy.get('#Input_Password').type('password1');
-                    cy.get('#registerSubmit').click();
-
+                    //cy.get('#Input_Email').type('klogan@omnitech-inc.com');
+                    //cy.get('#Input_Password').type('password1');
+                    //cy.get('#registerSubmit').click();
+                    cy.login('klogan@omnitech-inc.com', 'password1', '');                  
                     cy.get('.validation-summary-errors').should('have.text', 'The password and confirmation password do not match.');
                 });
             });
