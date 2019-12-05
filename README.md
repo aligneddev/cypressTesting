@@ -63,3 +63,4 @@ https://dev.to/noriste/front-end-productivity-boost-cypress-as-your-main-develop
 https://dvinnik.com/talks/testing/modern-web-testing-going-beyond-selenium/
 https://blog.logrocket.com/cypress-io-the-selenium-killer/
 https://rhythmandbinary.com/2019/06/09/how-cypress-makes-testing-fun/
+https://hackernoon.com/cypress-will-change-the-way-you-develop-47a194d2a33f
