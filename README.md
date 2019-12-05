@@ -8,6 +8,7 @@ https://docs.cypress.io/guides/getting-started/installing-cypress.html#System-re
 https://docs.cypress.io/guides/references/best-practices.html#article
 
 npm install cypress --save-dev
+
 npx cypress open
 
 "It is impossible for Cypress to miss elements when it fires events."
