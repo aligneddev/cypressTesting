@@ -51,6 +51,13 @@ cypress.env('password')
 
 ### TypeScript would help, my example is JavaScript (at least for now)
 
+
+## CI/CD
+
+https://docs.cypress.io/guides/guides/continuous-integration.html#Examples
+
+Look into more: https://docs.cypress.io/guides/tooling/plugins-guide.html#Use-Cases
+
 ## Resources
 https://dev.to/noriste/front-end-productivity-boost-cypress-as-your-main-development-browser-5cdk
 https://dvinnik.com/talks/testing/modern-web-testing-going-beyond-selenium/
