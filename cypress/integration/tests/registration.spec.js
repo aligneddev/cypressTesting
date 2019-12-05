@@ -18,7 +18,7 @@ context('Registration', () => {
                     //cy.get('#Input_Email').type('klogan@omnitech-inc.com');
                     //cy.get('#Input_Password').type('password1');
                     //cy.get('#registerSubmit').click();
-                    cy.login('klogan@omnitech-inc.com', 'password1');                  
+                    cy.login('klogan@omnitech-inc.com', 'password1', '');                  
                     cy.get('.validation-summary-errors').should('have.text', 'The password and confirmation password do not match.');
                 });
             });
