@@ -60,7 +60,11 @@ Look into more: https://docs.cypress.io/guides/tooling/plugins-guide.html#Use-Ca
 
 ## Organization
 
-I created a personal org, then it says to run `cypress run --record --key 32f80306-92eb-4c6a-b3b7-403329eb4442` and the recorded sessions will show up in [my dashboard](https://dashboard.cypress.io/).
+I created a personal org, then it says to run `npx cypress run --record --key 32f80306-92eb-4c6a-b3b7-403329eb4442` and the recorded sessions will show up in [my dashboard](https://dashboard.cypress.io/).
+
+They also show up in the "Runs" tab of the runner. In the website, there is even a recorded video!
+
+Here's more about the [Dashboard Service](https://docs.cypress.io/guides/core-concepts/dashboard-service.html#Overview#article)
 
 ## Resources
 https://dev.to/noriste/front-end-productivity-boost-cypress-as-your-main-development-browser-5cdk
