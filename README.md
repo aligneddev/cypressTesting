@@ -36,14 +36,18 @@ https://github.com/cypress-io/cypress-example-recipes/
 
 https://www.cypress.io/blog/2019/01/03/stop-using-page-objects-and-start-using-app-actions/#
 * More tied to the Cypress framework with custom actions, but it's 50% faster!
+
+`npx cypress run` will record videos. See Organization below for more info.
 	
 ### Variables
 
 https://docs.cypress.io/guides/references/best-practices.html#Setting-a-global-baseUrl
 
 put inside of cypresss.json
-cypress.env('usename')
-cypress.env('password')
+
+`Cypress.env('usename')`
+
+`Cypress.env('password')`
 
 ### Naming
 
@@ -58,9 +62,19 @@ https://docs.cypress.io/guides/guides/continuous-integration.html#Examples
 
 Look into more: https://docs.cypress.io/guides/tooling/plugins-guide.html#Use-Cases
 
+## Organization
+
+I created a personal org, then it says to run `npx cypress run --record --key 32f80306-92eb-4c6a-b3b7-403329eb4442` and the recorded sessions will show up in [my dashboard](https://dashboard.cypress.io/).
+
+They also show up in the "Runs" tab of the runner. In the website, there is even a recorded video!
+
+Here's more about the [Dashboard Service](https://docs.cypress.io/guides/core-concepts/dashboard-service.html#Overview#article)
+
 ## Resources
-https://dev.to/noriste/front-end-productivity-boost-cypress-as-your-main-development-browser-5cdk
-https://dvinnik.com/talks/testing/modern-web-testing-going-beyond-selenium/
-https://blog.logrocket.com/cypress-io-the-selenium-killer/
-https://rhythmandbinary.com/2019/06/09/how-cypress-makes-testing-fun/
-https://hackernoon.com/cypress-will-change-the-way-you-develop-47a194d2a33f
+
+* https://dev.to/noriste/front-end-productivity-boost-cypress-as-your-main-development-browser-5cdk
+* https://dvinnik.com/talks/testing/modern-web-testing-going-beyond-selenium/
+* https://blog.logrocket.com/cypress-io-the-selenium-killer/
+* https://rhythmandbinary.com/2019/06/09/how-cypress-makes-testing-fun/
+* https://hackernoon.com/cypress-will-change-the-way-you-develop-47a194d2a33f
+* [SSO - best practice](https://github.com/cypress-io/cypress/issues/1489)
