@@ -42,8 +42,10 @@ https://www.cypress.io/blog/2019/01/03/stop-using-page-objects-and-start-using-a
 https://docs.cypress.io/guides/references/best-practices.html#Setting-a-global-baseUrl
 
 put inside of cypresss.json
-cypress.env('usename')
-cypress.env('password')
+
+`Cypress.env('usename')`
+
+`Cypress.env('password')`
 
 ### Naming
 
