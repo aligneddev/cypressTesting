@@ -58,6 +58,10 @@ https://docs.cypress.io/guides/guides/continuous-integration.html#Examples
 
 Look into more: https://docs.cypress.io/guides/tooling/plugins-guide.html#Use-Cases
 
+## Organization
+
+I created a personal org, then it says to run `cypress run --record --key 32f80306-92eb-4c6a-b3b7-403329eb4442` and the recorded sessions will show up in [my dashboard](https://dashboard.cypress.io/).
+
 ## Resources
 https://dev.to/noriste/front-end-productivity-boost-cypress-as-your-main-development-browser-5cdk
 https://dvinnik.com/talks/testing/modern-web-testing-going-beyond-selenium/
