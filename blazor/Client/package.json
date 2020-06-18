@@ -1,0 +1,32 @@
+{
+  "name": "cypress-blazor",
+  "version": "1.0.0",
+  "description": "testing Blazor WASM with Cypress",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "cypress": "^4.8.0"
+  },
+  "scripts": {
+    "cy:run:chrome": "cypress run --browser chrome",
+    "cy:run:firefox": "cypress run --browser firefox",
+    "cypress-open": "npx cypress open",
+    "cypress-run": "npx cypress run",
+    "cypress-record": "npx cypress run --record --key 32f80306-92eb-4c6a-b3b7-403329eb4442"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aligneddev/cypressTesting.git"
+  },
+  "keywords": [
+    "cypress",
+    "blazor",
+    ".net"
+  ],
+  "author": "Kevin Logan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aligneddev/cypressTesting/issues"
+  },
+  "homepage": "https://github.com/aligneddev/cypressTesting#readme"
+}

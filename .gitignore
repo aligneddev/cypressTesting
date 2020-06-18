@@ -328,3 +328,5 @@ ASALocalRun/
 
 # MFractors (Xamarin productivity tool) working folder 
 .mfractor/
+*.cache/
+blazor/Client/obj/Debug/netstandard2.1/TestBlazorWithCypress.Client.assets.cache

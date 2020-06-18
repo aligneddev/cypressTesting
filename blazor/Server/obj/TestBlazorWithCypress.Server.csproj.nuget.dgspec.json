@@ -1,0 +1,213 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\git\\cypressTesting\\blazor\\TestBlazorWithCypress\\Server\\TestBlazorWithCypress.Server.csproj": {}
+  },
+  "projects": {
+    "C:\\git\\cypressTesting\\blazor\\TestBlazorWithCypress\\Client\\TestBlazorWithCypress.Client.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\git\\cypressTesting\\blazor\\TestBlazorWithCypress\\Client\\TestBlazorWithCypress.Client.csproj",
+        "projectName": "TestBlazorWithCypress.Client",
+        "projectPath": "C:\\git\\cypressTesting\\blazor\\TestBlazorWithCypress\\Client\\TestBlazorWithCypress.Client.csproj",
+        "packagesPath": "C:\\Users\\klogan\\.nuget\\packages\\",
+        "outputPath": "C:\\git\\cypressTesting\\blazor\\TestBlazorWithCypress\\Client\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\klogan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "projectReferences": {
+              "C:\\git\\cypressTesting\\blazor\\TestBlazorWithCypress\\Shared\\TestBlazorWithCypress.Shared.csproj": {
+                "projectPath": "C:\\git\\cypressTesting\\blazor\\TestBlazorWithCypress\\Shared\\TestBlazorWithCypress.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Components.WebAssembly": {
+              "target": "Package",
+              "version": "[3.2.0-preview5.20216.13, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.Build": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.2.0-preview5.20216.13, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.DevServer": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.2.0-preview5.20216.13, )"
+            },
+            "System.Net.Http.Json": {
+              "target": "Package",
+              "version": "[3.2.0-rc1.20216.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100-preview.5.20279.10\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\git\\cypressTesting\\blazor\\TestBlazorWithCypress\\Server\\TestBlazorWithCypress.Server.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\git\\cypressTesting\\blazor\\TestBlazorWithCypress\\Server\\TestBlazorWithCypress.Server.csproj",
+        "projectName": "TestBlazorWithCypress.Server",
+        "projectPath": "C:\\git\\cypressTesting\\blazor\\TestBlazorWithCypress\\Server\\TestBlazorWithCypress.Server.csproj",
+        "packagesPath": "C:\\Users\\klogan\\.nuget\\packages\\",
+        "outputPath": "C:\\git\\cypressTesting\\blazor\\TestBlazorWithCypress\\Server\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\klogan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\git\\cypressTesting\\blazor\\TestBlazorWithCypress\\Client\\TestBlazorWithCypress.Client.csproj": {
+                "projectPath": "C:\\git\\cypressTesting\\blazor\\TestBlazorWithCypress\\Client\\TestBlazorWithCypress.Client.csproj"
+              },
+              "C:\\git\\cypressTesting\\blazor\\TestBlazorWithCypress\\Shared\\TestBlazorWithCypress.Shared.csproj": {
+                "projectPath": "C:\\git\\cypressTesting\\blazor\\TestBlazorWithCypress\\Shared\\TestBlazorWithCypress.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Components.WebAssembly.Server": {
+              "target": "Package",
+              "version": "[3.2.0-preview5.20216.13, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100-preview.5.20279.10\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\git\\cypressTesting\\blazor\\TestBlazorWithCypress\\Shared\\TestBlazorWithCypress.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\git\\cypressTesting\\blazor\\TestBlazorWithCypress\\Shared\\TestBlazorWithCypress.Shared.csproj",
+        "projectName": "TestBlazorWithCypress.Shared",
+        "projectPath": "C:\\git\\cypressTesting\\blazor\\TestBlazorWithCypress\\Shared\\TestBlazorWithCypress.Shared.csproj",
+        "packagesPath": "C:\\Users\\klogan\\.nuget\\packages\\",
+        "outputPath": "C:\\git\\cypressTesting\\blazor\\TestBlazorWithCypress\\Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\klogan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100-preview.5.20279.10\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
