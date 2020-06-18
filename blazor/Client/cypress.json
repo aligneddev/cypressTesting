@@ -1,0 +1,11 @@
+{
+  "baseUrl": "http://localhost:52026/",
+  "integrationFolder": "cypress/integration",
+  "viewportHeight": 900,
+  "viewportWidth": 1600,
+  "supportFile": "cypress/support/index.js",
+  "chromeWebSecurity": false,
+  "modifyObstructiveCode": false,
+  "env": {},
+  "projectId": "p1yw7c"
+}
