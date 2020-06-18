@@ -1,0 +1,9 @@
+C:\git\cypressTesting\blazor\TestBlazorWithCypress\Shared\bin\Debug\netstandard2.1\TestBlazorWithCypress.Shared.deps.json
+C:\git\cypressTesting\blazor\TestBlazorWithCypress\Shared\bin\Debug\netstandard2.1\TestBlazorWithCypress.Shared.dll
+C:\git\cypressTesting\blazor\TestBlazorWithCypress\Shared\bin\Debug\netstandard2.1\TestBlazorWithCypress.Shared.pdb
+C:\git\cypressTesting\blazor\TestBlazorWithCypress\Shared\obj\Debug\netstandard2.1\TestBlazorWithCypress.Shared.csprojAssemblyReference.cache
+C:\git\cypressTesting\blazor\TestBlazorWithCypress\Shared\obj\Debug\netstandard2.1\TestBlazorWithCypress.Shared.AssemblyInfoInputs.cache
+C:\git\cypressTesting\blazor\TestBlazorWithCypress\Shared\obj\Debug\netstandard2.1\TestBlazorWithCypress.Shared.AssemblyInfo.cs
+C:\git\cypressTesting\blazor\TestBlazorWithCypress\Shared\obj\Debug\netstandard2.1\TestBlazorWithCypress.Shared.csproj.CoreCompileInputs.cache
+C:\git\cypressTesting\blazor\TestBlazorWithCypress\Shared\obj\Debug\netstandard2.1\TestBlazorWithCypress.Shared.dll
+C:\git\cypressTesting\blazor\TestBlazorWithCypress\Shared\obj\Debug\netstandard2.1\TestBlazorWithCypress.Shared.pdb

@@ -1,0 +1,67 @@
+{
+  "version": 2,
+  "dgSpecHash": "NmLvklaU1ZRaOfS9iB2fR2urBzWvzv/GtWAUNj8wzDtEsZ8BqM+vLk8P8N0P3TrAzSU9taJ9THz31IPSHdbmUw==",
+  "success": true,
+  "projectFilePath": "C:\\git\\cypressTesting\\blazor\\TestBlazorWithCypress\\Server\\TestBlazorWithCypress.Server.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\klogan\\.nuget\\packages\\microsoft.aspnetcore.authorization\\3.1.3\\microsoft.aspnetcore.authorization.3.1.3.nupkg.sha512",
+    "C:\\Users\\klogan\\.nuget\\packages\\microsoft.aspnetcore.components\\3.1.3\\microsoft.aspnetcore.components.3.1.3.nupkg.sha512",
+    "C:\\Users\\klogan\\.nuget\\packages\\microsoft.aspnetcore.components.analyzers\\3.1.3\\microsoft.aspnetcore.components.analyzers.3.1.3.nupkg.sha512",
+    "C:\\Users\\klogan\\.nuget\\packages\\microsoft.aspnetcore.components.forms\\3.1.3\\microsoft.aspnetcore.components.forms.3.1.3.nupkg.sha512",
+    "C:\\Users\\klogan\\.nuget\\packages\\microsoft.aspnetcore.components.web\\3.1.3\\microsoft.aspnetcore.components.web.3.1.3.nupkg.sha512",
+    "C:\\Users\\klogan\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly\\3.2.0-rc1.20223.4\\microsoft.aspnetcore.components.webassembly.3.2.0-rc1.20223.4.nupkg.sha512",
+    "C:\\Users\\klogan\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly.httphandler\\3.2.0-rc1.20223.4\\microsoft.aspnetcore.components.webassembly.httphandler.3.2.0-rc1.20223.4.nupkg.sha512",
+    "C:\\Users\\klogan\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly.server\\3.2.0-rc1.20223.4\\microsoft.aspnetcore.components.webassembly.server.3.2.0-rc1.20223.4.nupkg.sha512",
+    "C:\\Users\\klogan\\.nuget\\packages\\microsoft.aspnetcore.metadata\\3.1.3\\microsoft.aspnetcore.metadata.3.1.3.nupkg.sha512",
+    "C:\\Users\\klogan\\.nuget\\packages\\microsoft.extensions.configuration\\3.1.3\\microsoft.extensions.configuration.3.1.3.nupkg.sha512",
+    "C:\\Users\\klogan\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\3.1.3\\microsoft.extensions.configuration.abstractions.3.1.3.nupkg.sha512",
+    "C:\\Users\\klogan\\.nuget\\packages\\microsoft.extensions.configuration.binder\\3.1.3\\microsoft.extensions.configuration.binder.3.1.3.nupkg.sha512",
+    "C:\\Users\\klogan\\.nuget\\packages\\microsoft.extensions.configuration.fileextensions\\3.1.3\\microsoft.extensions.configuration.fileextensions.3.1.3.nupkg.sha512",
+    "C:\\Users\\klogan\\.nuget\\packages\\microsoft.extensions.configuration.json\\3.1.3\\microsoft.extensions.configuration.json.3.1.3.nupkg.sha512",
+    "C:\\Users\\klogan\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\3.1.3\\microsoft.extensions.dependencyinjection.3.1.3.nupkg.sha512",
+    "C:\\Users\\klogan\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.1.3\\microsoft.extensions.dependencyinjection.abstractions.3.1.3.nupkg.sha512",
+    "C:\\Users\\klogan\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\3.1.3\\microsoft.extensions.fileproviders.abstractions.3.1.3.nupkg.sha512",
+    "C:\\Users\\klogan\\.nuget\\packages\\microsoft.extensions.fileproviders.physical\\3.1.3\\microsoft.extensions.fileproviders.physical.3.1.3.nupkg.sha512",
+    "C:\\Users\\klogan\\.nuget\\packages\\microsoft.extensions.filesystemglobbing\\3.1.3\\microsoft.extensions.filesystemglobbing.3.1.3.nupkg.sha512",
+    "C:\\Users\\klogan\\.nuget\\packages\\microsoft.extensions.logging\\3.1.3\\microsoft.extensions.logging.3.1.3.nupkg.sha512",
+    "C:\\Users\\klogan\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.1.3\\microsoft.extensions.logging.abstractions.3.1.3.nupkg.sha512",
+    "C:\\Users\\klogan\\.nuget\\packages\\microsoft.extensions.options\\3.1.3\\microsoft.extensions.options.3.1.3.nupkg.sha512",
+    "C:\\Users\\klogan\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.3\\microsoft.extensions.primitives.3.1.3.nupkg.sha512",
+    "C:\\Users\\klogan\\.nuget\\packages\\microsoft.jsinterop\\3.1.3\\microsoft.jsinterop.3.1.3.nupkg.sha512",
+    "C:\\Users\\klogan\\.nuget\\packages\\microsoft.jsinterop.webassembly\\3.2.0-rc1.20223.4\\microsoft.jsinterop.webassembly.3.2.0-rc1.20223.4.nupkg.sha512",
+    "C:\\Users\\klogan\\.nuget\\packages\\system.net.http.json\\3.2.0-rc1.20217.1\\system.net.http.json.3.2.0-rc1.20217.1.nupkg.sha512",
+    "C:\\Users\\klogan\\.nuget\\packages\\system.text.json\\4.7.1\\system.text.json.4.7.1.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "TestBlazorWithCypress.Client depends on Microsoft.AspNetCore.Components.WebAssembly (>= 3.2.0-preview5.20216.13) but Microsoft.AspNetCore.Components.WebAssembly 3.2.0-preview5.20216.13 was not found. An approximate best match of Microsoft.AspNetCore.Components.WebAssembly 3.2.0-rc1.20223.4 was resolved.",
+      "libraryId": "Microsoft.AspNetCore.Components.WebAssembly",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "TestBlazorWithCypress.Server depends on Microsoft.AspNetCore.Components.WebAssembly.Server (>= 3.2.0-preview5.20216.13) but Microsoft.AspNetCore.Components.WebAssembly.Server 3.2.0-preview5.20216.13 was not found. An approximate best match of Microsoft.AspNetCore.Components.WebAssembly.Server 3.2.0-rc1.20223.4 was resolved.",
+      "libraryId": "Microsoft.AspNetCore.Components.WebAssembly.Server",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "TestBlazorWithCypress.Client depends on System.Net.Http.Json (>= 3.2.0-rc1.20216.1) but System.Net.Http.Json 3.2.0-rc1.20216.1 was not found. An approximate best match of System.Net.Http.Json 3.2.0-rc1.20217.1 was resolved.",
+      "libraryId": "System.Net.Http.Json",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
+}
